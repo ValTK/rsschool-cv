@@ -22,7 +22,11 @@ I'm 30 years old heterosexual man. Currently i am working as commercial agent at
 
 ```
 
-Here is my code
+let x = [1, 2, 3];
+
+for (let i = 0; i < x.length; i++) {
+  console.log(i);
+}
 
 ```
 
@@ -35,7 +39,7 @@ Here is my code
 - **[W3Schools](https://www.w3schools.com)**
   - CSS Tutorial
   - HTML Tutorial
-- **[JavaScript.ru](https://www.learn.javacsript.ru>)** (In progress)
+- **[JavaScript.ru](https://www.learn.javacsript.ru)** (In progress)
 - **[RS](https://www.rs.school)**
   - JS/Front-End. Stage 1 (In Progress)
 
