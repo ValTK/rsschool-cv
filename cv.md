@@ -13,10 +13,10 @@ I'm 30 years old heterosexual man. Currently i am working as commercial agent at
 
 ## Skills:
 
-- HTML, CSS
-- JavaScript (Basic)
-- Git, GitHub
-- VSCode, WebStorm, Atom
+- **HTML, CSS**
+- **JavaScript (Basic)**
+- **Git, GitHub**
+- **VSCode, WebStorm, Atom**
 
 ## Code example:
 
@@ -28,16 +28,16 @@ Here is my code
 
 ## Courses:
 
-- <freecodecamp.org>
+- **[FreeCodeCamp](freecodecamp.org)**
   - HTML
   - CSS
   - JavaScript (In progress)
-- <w3schools.com>
+- **[W3Schools](https://www.w3schools.com)**
   - CSS Tutorial
   - HTML Tutorial
-- <learnjavasript.ru> (In progress)
-- <rs.school>
-  - JS/FRONT-END. STAGE 1 (In Progress)
+- **[JavaScript.ru](https://www.learnjavasript.ru>)** (In progress)
+- **[RS](https://www.rs.school)**
+  - JS/Front-End. Stage 1 (In Progress)
 
 ## Languages:
 
