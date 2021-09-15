@@ -35,7 +35,7 @@ Here is my code
 - **[W3Schools](https://www.w3schools.com)**
   - CSS Tutorial
   - HTML Tutorial
-- **[JavaScript.ru](https://www.learn.javasript.ru>)** (In progress)
+- **[JavaScript.ru](https://www.learn.javacsript.ru>)** (In progress)
 - **[RS](https://www.rs.school)**
   - JS/Front-End. Stage 1 (In Progress)
 
