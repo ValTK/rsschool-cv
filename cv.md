@@ -28,19 +28,19 @@ Here is my code
 
 ## Courses:
 
-- **[FreeCodeCamp](freecodecamp.org)**
+- **[FreeCodeCamp](https://www.freecodecamp.org)**
   - HTML
   - CSS
   - JavaScript (In progress)
 - **[W3Schools](https://www.w3schools.com)**
   - CSS Tutorial
   - HTML Tutorial
-- **[JavaScript.ru](https://www.learnjavasript.ru>)** (In progress)
+- **[JavaScript.ru](https://www.learn.javasript.ru>)** (In progress)
 - **[RS](https://www.rs.school)**
   - JS/Front-End. Stage 1 (In Progress)
 
 ## Languages:
 
-- **English** - **C2** (based on [EF SET](www.efset.org/cert/1zUKPi))
+- **English** - **C2** (based on [EF SET](https://www.efset.org/cert/1zUKPi))
 - **Russian** - **Native**
 - **Spanish** - **4-6 phrases** (based on american hip-hop i'am listening to)
