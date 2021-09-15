@@ -25,3 +25,22 @@ I'm 30 years old heterosexual man. Currently i am working as commercial agent at
 Here is my code
 
 ```
+
+## Courses:
+
+- <freecodecamp.org>
+  - HTML
+  - CSS
+  - JavaScript (In progress)
+- <w3schools.com>
+  - CSS Tutorial
+  - HTML Tutorial
+- <learnjavasript.ru> (In progress)
+- <rs.school>
+  - JS/FRONT-END. STAGE 1 (In Progress)
+
+## Languages:
+
+- **English** - **C2** (based on [EF SET](www.efset.org/cert/1zUKPi))
+- **Russian** - **Native**
+- **Spanish** - **4-6 phrases** (based on american hip-hop i'am listening to)
