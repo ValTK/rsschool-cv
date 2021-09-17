@@ -30,8 +30,13 @@ for (let i = 0; i < x.length; i++) {
 
 ```
 
-## Courses:
+## Working experince:
 
+![None](https://i1.wp.com/andrey-eltsov.ru/wp-content/uploads/2018/02/Gg-Hh-rc8vh_swTt-dlI-sk4.jpg)
+
+## Education:
+
+- **Belarus State Economic University, Economics and Trade Management**
 - **[FreeCodeCamp](https://www.freecodecamp.org)**
   - HTML
   - CSS
