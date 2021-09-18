@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/path/to/styles/default.css">
+    <script src="/path/to/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <title>CV Page</title>
 </head>
 <body>
     <div id="main-block">
         <aside>
             <header>
-                <img src="./ava.jpg" alt="my beautiful head" width="60" height="140">
+                <img src="./ava.jpg" alt="my beautiful head" width="280" height="415">
                 <h1>Valeriy Zhigalov</h1>
                 <h3>Front-End Developer Wannabe</h3>
             </header>
@@ -20,6 +23,13 @@
                     <li>JavaScript</li>
                     <li>Git/GitHub</li>
                     <li>VSCode/Atom/WebStorm</li>
+                </ul>
+            </div>
+            <div id="contacts">
+                <ul>
+                    <li>Phone: +375296745524</li>
+                    <li>Email: zhigalov.valeriy@gmail.com</li>
+                    <li>telegram: @ValTK</li>
                 </ul>
             </div>
         </aside>
@@ -38,6 +48,22 @@
                         <li>[JavaScript.ru](https://www.learn.javacsript.ru)</li>
             </ul>
         </section>
+        <section></section>
+        <figure>
+            <figcaption>Get browser details using navigator.</figcaption>
+                <pre><code id="jscode">
+                    function NavigatorExample() {
+                    var txt;
+                    txt = "Browser CodeName: " + navigator.appCodeName + "; ";
+                    txt+= "Browser Name: " + navigator.appName + "; ";
+                    txt+= "Browser Version: " + navigator.appVersion + "; ";
+                    txt+= "Cookies Enabled: " + navigator.cookieEnabled + "; ";
+                    txt+= "Platform: " + navigator.platform + "; ";
+                    txt+= "User-agent header: " + navigator.userAgent + "; ";
+                    console.log("NavigatorExample", txt);
+                    }</code>
+                </pre>
+        </figure>
         <footer>
             <a id="git-logo" href="https://github.com/ValTK">
                 <img src="./GitHubLogo.svg" alt="github logo" width="64" height="64"> GitHub
