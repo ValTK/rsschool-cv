@@ -9,14 +9,42 @@
     <title>CV Page</title>
 </head>
 <body>
-    <div id="main-block">
+    <div class="wrapper">
         <aside>
-            <header>
-                <img src="./logos/ava.jpg" alt="my beautiful head" width="280" height="415">
-                <h1>Valeriy Zhigalov</h1>
-                <h3>Front-End Developer Wannabe</h3>
+            <header class="header">
+                <div class="container">
+                    <div class="header-body">
+                        <img src="./logos/ava.jpg" alt="my beautiful head" width="280" height="415">
+                        <div class="header-burger">
+                            <span>
+                            </span>
+                        </div>
+                        <nav class="header-menu">
+                            <ul class="header-list">
+                                <li>
+                                    <a href="" class="header-link"></a>
+                                </li>
+                                <li>
+                                    <a href="" class="header-link"></a>
+                                </li>
+                                <li>
+                                    <a href="" class="header-link"></a>
+                                </li>
+                                <li>
+                                    <a href="" class="header-link"></a>
+                                </li>
+                                <li>
+                                    <a href="" class="header-link"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <h1>Valeriy Zhigalov</h1>
+                    <h3>Front-End Developer Wannabe</h3>
+
+                </div>
             </header>
-            <div id="skills">
+            <div class="skills">
                 <ul>Skills
                     <li>HTML/CSS</li>
                     <li>JavaScript</li>
@@ -24,7 +52,7 @@
                     <li>VSCode/Atom/WebStorm</li>
                 </ul>
             </div>
-            <div id="contacts">
+            <div class="contacts">
                 <ul>
                     <li>Phone: +375296745524</li>
                     <li>Email: zhigalov.valeriy@gmail.com</li>
@@ -32,15 +60,15 @@
                 </ul>
             </div>
         </aside>
-        <section id="about">I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that sells huge pipes on
+        <section id="class">I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that sells huge pipes on
         Belarusian Universal Comodity Exchange. At some point i realized that i have reached my limits and i don't want to move
         futher in this industry. So i chose IT undustry as a place without any limits. At the moment i am trying my best to get
         enough knowledge and skills to start my career in IT.
         </section>
-        <section id="education">
-            <ul>Education
+        <section class="education">
+            <ul>Education:
                 <li>Belarus State Economic University, Economics and Trade Management</li>
-                    <ul>Courses</ul>
+                    <ul>Courses:</ul>
                         <li>FreeCodeCamp, Resposive Web Design</li>
                         <li>W3Schools, HTML and CSS Tutorials</li>
                         <li>RS-School, JS/Front-End. Stage 1</li>
@@ -50,7 +78,7 @@
         <section></section>
         <figure>
             <figcaption>Get browser details using navigator.</figcaption>
-                <pre><code id="jscode">
+                <pre><code class="jscode">
                     function NavigatorExample() {
                     var txt;
                     txt = "Browser CodeName: " + navigator.appCodeName + "; ";
