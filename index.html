@@ -10,37 +10,22 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside>
-            <header class="header">
-                <div class="container">
-                    <div class="header-body">
-                        <img src="./logos/ava.jpg" alt="my beautiful head" width="280" height="415">
-                        <div class="header-burger">
-                            <span></span>
-                        </div>
-                        <nav class="header-menu">
-                            <ul class="header-list">
-                                <li>Main
-                                    <a href="" class="header-link"></a>
-                                </li>
-                                <li>Contacts
-                                    <a href="" class="header-link"></a>
-                                </li>
-                                <li>Education
-                                    <a href="" class="header-link"></a>
-                                </li>
-                                <li>Skills
-                                    <a href="" class="header-link"></a>
-                                </li>
-                                <li>Code
-                                    <a href="" class="header-link"></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu">Menu</label>
+        <div class="burger-line first"></div>
+        <div class="burger-line second"></div>
+        <div class="burger-line third"></div>
+        <div class="burger-line fourth"></div>
+        <nav class="main-menu">
+            <a class="burger-link" href="">Первый 1</a>
+            <a class="burger-link" href="">Второй 2</a>
+            <a class="burger-link" href="">Третий 3</a>
+            <a class="burger-link" href="">Четвёртый 4</a>
+        </nav>
+    </div>
+        <aside class="left-content">
                     <h1>Valeriy Zhigalov</h1>
                     <h3>Front-End Developer Wannabe</h3>
-                </div>
             </header>
             <div class="skills">
                 <ul>Skills
@@ -58,10 +43,9 @@
                 </ul>
             </div>
         </aside>
-        <section id="class">I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that sells huge pipes on
-        Belarusian Universal Comodity Exchange. At some point i realized that i have reached my limits and i don't want to move
-        futher in this industry. So i chose IT undustry as a place without any limits. At the moment i am trying my best to get
-        enough knowledge and skills to start my career in IT.
+        <div class="right-content">
+        <section class="about-myself">
+            I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that sells huge pipes on Belarusian Universal Comodity Exchange. At some point i realized that i have reached my limits and i don't want to move futher in this industry. So i chose IT undustry as a place without any limits. At the moment i am trying my best to get enough knowledge and skills to start my career in IT.
         </section>
         <section class="education">
             <ul>Education/Courses:
@@ -71,7 +55,6 @@
                 <li>RS-School, JS/Front-End. Stage 1</li>
             </ul>
         </section>
-        <section></section>
         <figure>
             <figcaption>Easy Counting Code</figcaption>
                 <pre>
@@ -81,10 +64,13 @@
                     for (let i = 0; i < x.length; i++) {
 
                     console.log(i);
+                    
                     }
                     </code>
                 </pre>
         </figure>
+        </div>
+    </div>
         <footer>
             <a id="git-logo" href="https://github.com/ValTK">
                 <img src="./logos/GitHubLogo.svg" alt="github logo" width="64" height="64"> GitHub
