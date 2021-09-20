@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./libs/highlight/styles/an-old-hope.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
     <title>CVPage</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="wrapper-burger">
             <input type="checkbox" id="check-menu">
-                <label for="check-menu"></label>
-                <div class="burger-line first"></div>
-                <div class="burger-line second"></div>
-                <div class="burger-line third"></div>
-                <div class="burger-line fourth"></div>
-                    <nav class="main-menu">
-                        <a class="burger-link" href="#contacts">Contacts</a>
-                        <a class="burger-link" href="#skills">Skills</a>
-                        <a class="burger-link" href="#about-myself">About</a>
-                        <a class="burger-link" href="#education">Education</a>
-                    </nav>
+            <label for="check-menu"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="main-menu">
+                <a class="burger-link" href="#contacts">Contacts</a>
+                <a class="burger-link" href="#skills">Skills</a>
+                <a class="burger-link" href="#about-myself">About</a>
+                <a class="burger-link" href="#education">Education</a>
+            </nav>
         </div>
         <div class="maybe-left-column">
             <header class="header">
                 <img src="./logos/ava.jpg" alt="Sexiest face on the earth">
                 <h1>Valeriy Zhigalov</h1>
                 <h2>Front-End Developer Wannabe</h2>
-                </header>
+            </header>
             <div id="skills" class="skills">
                 <h3>Skills</h3>
                 <ul>
@@ -53,34 +56,39 @@
             <section id="about-myself" class="about-myself">
                 <div class="about">
                     <h3>Briefly About Myself</h3>
-                <p>I'm 30 years old heterosexual man. Currently i am working as    commercial agent at a company that sells huge pipes on Belarusian  Universal Comodity Exchange. At some point i realized that i have    reached my limits and i don't want to move futher in this industry.    So i chose IT undustry as a place without any limits. At the moment i  am trying my best to get enough knowledge and skills to start my     career in IT.</p>
+                    <p>I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that
+                        sells huge pipes on Belarusian Universal Comodity Exchange. At some point i realized that i have
+                        reached my limits and i don't want to move futher in this industry. So i chose IT undustry as a
+                        place without any limits. At the moment i am trying my best to get enough knowledge and skills
+                        to start my career in IT.</p>
                 </div>
             </section>
             <section id="education" class="education">
                 <h3>Education/Courses</h3>
                 <ul>
-                    <li>Belarus State Economic University, Economics and Trade  Management</li>
+                    <li>Belarus State Economic University, Economics and Trade Management</li>
                     <li>FreeCodeCamp, Resposive Web Design</li>
                     <li>W3Schools, HTML and CSS Tutorials</li>
                     <li>RS-School, JS/Front-End. Stage 1</li>
                 </ul>
             </section>
             <aside class="maybe-aside">
-            <figure class="easy-code">
-                <figcaption></figcaption>
-                <h3>Easy Counting Code</h3>
+                <figure class="easy-code">
+                    <figcaption>
+                        <h3>Easy Counting Code</h3>
+                    </figcaption>
                     <pre>
-                        <code class="jscode">
-                        let x = [1, 2, 3];
-                        
-                    for (let i = 0; i &lt; x.length; i++) {
-                        
-                        console.log(i);
-                        
-                        }
+                        <code class="js">
+                            let x = [1, 2, 3];
+
+                            for (let i = 0; i &lt; x.length; i++) {
+
+                            console.log(i);
+
+                            }
                         </code>
                     </pre>
-            </figure>
+                </figure>
             </aside>
         </div>
         <footer class="my-footer">
@@ -90,14 +98,14 @@
             <span>&copy;
                 <time datetime="2021-09-17 23:59">2021</time>
             </span>
-            <span class="rschool-logo"> <a target="_blank" id="rs-logo" href="https://rs.school/js/">
+            <span class="rs-logo"> <a target="_blank" id="rs-logo" href="https://rs.school/js/">
                     <img src="./logos/RSicon.svg" alt="rsschool logo" width="128" height="128">
                 </a>
             </span>
         </footer>
-            </div>  
-            
-        <script src="./libs/highlight/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script>
+    </div>
+    <script src="./libs/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
+
 </html>

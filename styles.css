@@ -86,7 +86,7 @@ body {
 .wrapper {
   width: 1180px;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color:lightgray;
 }
 header > img {
   padding-top: 35px;
@@ -98,23 +98,23 @@ header {
   align-items: center;
 }
 .skills {
-  background-color: brown;
+  background-color: rgb(238, 238, 238);
   padding-bottom: 1px;
 }
 .contacts {
-  background-color: darkorange;
+  background-color: rgb(238, 238, 238);
   padding-bottom: 1px;
 }
 .about-myself {
-  background-color: deeppink;
+  background-color: rgb(238, 238, 238);
   padding-bottom: 1px;
 }
 .education {
-  background-color: aqua;
+  background-color: rgb(238, 238, 238);
   padding-bottom: 1px;
 }
 .maybe-aside {
-  background-color: gold;
+  background-color: rgb(238, 238, 238);
 }
 .my-footer {
   display: flex;
@@ -124,4 +124,23 @@ header {
 ul {
   list-style: unset;
   line-height: 25px;
+  margin-left: 35px;
+}
+li {
+  line-height: 55px;
+}
+h3 {
+  margin-left: 55px;
+  padding-top: 30px;
+}
+p {
+  text-align: justify;
+  margin: 0 55px;
+  padding-bottom: 55px;
+}
+.git-logo {
+  margin-left: 55px;
+}
+.rs-logo {
+  margin-right: 55px;
 }
