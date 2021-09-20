@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .wrapper-burger {
   width: 1180px;
   background-color: black;
@@ -78,6 +81,7 @@ body {
   font-family: Oswald, Arial, Helvetica, sans-serif;
   height: 100%;
   line-height: 30px;
+  font-size: 24px;
 }
 .wrapper {
   width: 1180px;
@@ -85,28 +89,37 @@ body {
   background-color: blueviolet;
 }
 header > img {
+  padding-top: 35px;
   border-radius: 50%;
 }
 header {
-  background-color: aliceblue;
+  padding-bottom: 10px;
+  text-align: center;
+  align-items: center;
 }
 .skills {
   background-color: brown;
+  padding-bottom: 1px;
 }
 .contacts {
   background-color: darkorange;
+  padding-bottom: 1px;
 }
 .about-myself {
   background-color: deeppink;
+  padding-bottom: 1px;
 }
 .education {
   background-color: aqua;
+  padding-bottom: 1px;
 }
 .maybe-aside {
   background-color: gold;
 }
 .my-footer {
-  background-color: lemonchiffon;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 ul {
   list-style: unset;
