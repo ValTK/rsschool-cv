@@ -81,25 +81,14 @@ body {
 }
 .wrapper {
   width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-color: blueviolet;
-}
-.left-column {
-  margin-top: 50px;
-  float: left;
-  width: 50%;
-}
-.right-column {
-  margin-top: 50px;
-  float: right;
-  width: 50%;
 }
 header > img {
   border-radius: 50%;
 }
 header {
-  background-color: blanchedalmond;
+  background-color: aliceblue;
 }
 .skills {
   background-color: brown;
@@ -114,8 +103,12 @@ header {
   background-color: aqua;
 }
 .maybe-aside {
-background-color: gold;
+  background-color: gold;
 }
 .my-footer {
   background-color: lemonchiffon;
+}
+ul {
+  list-style: unset;
+  line-height: 25px;
 }
