@@ -1,6 +1,5 @@
 .wrapper-burger {
-  
-  width: 100%;
+  width: 1180px;
   background-color: black;
   position: fixed;
   top: 0;
@@ -26,10 +25,10 @@ label {
 .burger-line {
   position: absolute;
   top: 8px;
-  right: 10px;
   width: 35px;
   height: 3px;
   background-color: rgba(255, 255, 255, 0.884);
+  left: 10px;
 }
 .second,
 .third {
@@ -81,8 +80,42 @@ body {
   line-height: 30px;
 }
 .wrapper {
-    display: block;
-    max-width: 70%;
-    align-items: center;
-    justify-items: center;
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blueviolet;
+}
+.left-column {
+  margin-top: 50px;
+  float: left;
+  width: 50%;
+}
+.right-column {
+  margin-top: 50px;
+  float: right;
+  width: 50%;
+}
+header > img {
+  border-radius: 50%;
+}
+header {
+  background-color: blanchedalmond;
+}
+.skills {
+  background-color: brown;
+}
+.contacts {
+  background-color: darkorange;
+}
+.about-myself {
+  background-color: deeppink;
+}
+.education {
+  background-color: aqua;
+}
+.maybe-aside {
+background-color: gold;
+}
+.my-footer {
+  background-color: lemonchiffon;
 }
