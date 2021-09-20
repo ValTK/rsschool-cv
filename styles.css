@@ -1,11 +1,12 @@
-.wrapper {
-  margin: 200px auto;
-  width: 320px;
+.wrapper-burger {
+  
+  width: 100%;
   background-color: black;
-  position: relative;
-  color: rgb(255, 240, 250);
-  text-align: center;
-  height: 60px;
+  position: fixed;
+  top: 0;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  height: 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #check-menu {
@@ -13,7 +14,7 @@
 }
 label {
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -73,4 +74,15 @@ label {
 }
 #check-menu:checked ~ .fourth {
   display: none;
+}
+body {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  height: 100%;
+  line-height: 30px;
+}
+.wrapper {
+    display: block;
+    max-width: 70%;
+    align-items: center;
+    justify-items: center;
 }

@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./libs/highlight/styles/an-old-hope.min.css">
     <title>CV Page</title>
 </head>
 <body>
     <div class="wrapper">
-        <input type="checkbox" id="check-menu">
-        <label for="check-menu">Menu</label>
-        <div class="burger-line first"></div>
-        <div class="burger-line second"></div>
-        <div class="burger-line third"></div>
-        <div class="burger-line fourth"></div>
-        <nav class="main-menu">
-            <a class="burger-link" href="">Первый 1</a>
-            <a class="burger-link" href="">Второй 2</a>
-            <a class="burger-link" href="">Третий 3</a>
-            <a class="burger-link" href="">Четвёртый 4</a>
-        </nav>
-    </div>
+        <div class="wrapper-burger">
+            <input type="checkbox" id="check-menu">
+                <label for="check-menu">Menu</label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                    <nav class="main-menu">
+                        <a class="burger-link" href="#contacts">Contacts</a>
+                        <a class="burger-link" href="#skills">Skills</a>
+                        <a class="burger-link" href="#about-myself">About</a>
+                        <a class="burger-link" href="#education">Education</a>
+                    </nav>
+        </div>
         <aside class="left-content">
-                    <h1>Valeriy Zhigalov</h1>
-                    <h3>Front-End Developer Wannabe</h3>
+            <header>
+                <h1>Valeriy Zhigalov</h1>
+                <h3>Front-End Developer Wannabe</h3>
             </header>
-            <div class="skills">
+            <div id="skills" class="skills">
                 <ul>Skills
                     <li>HTML/CSS</li>
                     <li>JavaScript</li>
@@ -35,8 +38,8 @@
                     <li>VSCode/Atom/WebStorm</li>
                 </ul>
             </div>
-            <div class="contacts">
-                <ul>
+            <div id="contacts" class="contacts">
+                <ul>Сontacts:
                     <li>Phone: +375296745524</li>
                     <li>Email: zhigalov.valeriy@gmail.com</li>
                     <li>telegram: @ValTK</li>
@@ -44,31 +47,31 @@
             </div>
         </aside>
         <div class="right-content">
-        <section class="about-myself">
-            I'm 30 years old heterosexual man. Currently i am working as commercial agent at a company that sells huge pipes on Belarusian Universal Comodity Exchange. At some point i realized that i have reached my limits and i don't want to move futher in this industry. So i chose IT undustry as a place without any limits. At the moment i am trying my best to get enough knowledge and skills to start my career in IT.
-        </section>
-        <section class="education">
-            <ul>Education/Courses:
-                <li>Belarus State Economic University, Economics and Trade Management</li>
-                <li>FreeCodeCamp, Resposive Web Design</li>
-                <li>W3Schools, HTML and CSS Tutorials</li>
-                <li>RS-School, JS/Front-End. Stage 1</li>
-            </ul>
-        </section>
-        <figure>
-            <figcaption>Easy Counting Code</figcaption>
-                <pre>
-                    <code class="jscode">
-                    let x = [1, 2, 3];
-
+            <section id="about-myself" class="about-myself">
+                I'm 30 years old heterosexual man. Currently i am working as    commercial agent at a company that sells huge pipes on Belarusian  Universal Comodity Exchange. At some point i realized that i have    reached my limits and i don't want to move futher in this industry.    So i chose IT undustry as a place without any limits. At the moment i  am trying my best to get enough knowledge and skills to start my     career in IT.
+            </section>
+            <section id="education" class="education">
+                <ul>Education/Courses:
+                    <li>Belarus State Economic University, Economics and Trade  Management</li>
+                    <li>FreeCodeCamp, Resposive Web Design</li>
+                    <li>W3Schools, HTML and CSS Tutorials</li>
+                    <li>RS-School, JS/Front-End. Stage 1</li>
+                </ul>
+            </section>
+            <figure>
+                <figcaption>Easy Counting Code:</figcaption>
+                    <pre>
+                        <code class="jscode">
+                        let x = [1, 2, 3];
+                        
                     for (let i = 0; i < x.length; i++) {
-
-                    console.log(i);
-                    
-                    }
-                    </code>
-                </pre>
-        </figure>
+                        
+                        console.log(i);
+                        
+                        }
+                        </code>
+                    </pre>
+            </figure>
         </div>
     </div>
         <footer>
