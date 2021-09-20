@@ -1,1 +1,1 @@
-https://ValTK.github.io/rsschool-cv/cv
+https://ValTK.github.io/rsschool-cv
